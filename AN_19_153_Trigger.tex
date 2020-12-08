@@ -48,32 +48,60 @@ Total & 275,968,905  \\
 \begin{table}[htb]
 \footnotesize
 \centering
-\caption{Monte Carlo samples for the trigger scale factor studies: $WZ \rightarrow 3l\nu$ process}
-\begin{tabular}{| l | l | c | c | }
+\caption{Monte Carlo samples for the trigger scale factor studies: $WZ \rightarrow 3l\nu$ process and $ttZ\rightarrow ll\nu\nu$ process.}
+\begin{tabular}{| l | l | l | c | c | }
 \hline
- Process &  Dataset name &  Number of events & Cross Section\\
+Abbreviation & Dataset name &  Events & Cross Section [pb]\\
 \hline
 \hline
-WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8/RunIIAutumn18MiniAOD-102X\_upgrade2018\_realistic\_v15-v1/MINIAODSIM \\
-WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8/RunIIAutumn18MiniAOD-102X\_upgrade2018\_realistic\_v15\_ext1-v2/MINIAODSIM \\
-WZTo3LNu\_TuneCP5\_13TeV-powheg-pythia8/RunIIAutumn18MiniAOD-102X\_upgrade2018\_realistic\_v15\_ext1-v2/MINIAODSIM \\
-WZTo3LNu\_mllmin01\_NNPDF31\_TuneCP5\_13TeV\_powheg\_pythia8/RunIIAutumn18MiniAOD-102X\_upgrade2018\_realistic\_v15-v1/MINIAODSIM \\
-%$WZ \rightarrow 3l\nu$ & {/WZTo3LNu\_TuneCUETP8M1\_13TeV-powheg-pythia8/} & \\
-% & {RunIISummer16DR80Premix-PUMoriond17\_80X\_mcRun2} &  \\
-% & \_asymptotic\_2016\_TrancheIV\_v6\_ext1-v3/AODSIM & 18,000,000 \\
-%$ttZ\rightarrow ll\nu\nu$ & {/TTZToLLNuNu\_M-10\_TuneCUETP8M1\_13TeV-amcatnloFXFX-madspin} & \\
-%& -pythia8/RunIISummer16DR80Premix-PUMoriond17\_80X\_mcRun2 &  \\
-%& \_asymptotic\_2016\_TrancheIV\_v6\_ext1-v3/AODSIM & 5,934,228 \\
+WZTo3LNu1 & WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8 & 10,749,269 & $5.052 \pm	0.0175$\\
+& /RunIIAutumn18MiniAOD-102X\_upgrade2018\_ & & 
+\\ 
+& realistic\_v15-v1/MINIAODSIM & &  \\
+\hline
+WZTo3LNu2 &  /WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8  & 11,248,318 & $5.052 \pm	0.0175$ \\
+& /RunIIAutumn18MiniAOD-102X\_upgrade2018\_ & & \\ 
+& realistic\_v15\_ext1-v2/MINIAODSIM  & & \\
+\hline
+WZTo3LNu3 &/WZTo3LNu\_TuneCP5\_13TeV-powheg-pythia8 & 1,976,600 & \\
+&/RunIIAutumn18MiniAOD-102X\_upgrade2018\_  & & \\
+& realistic\_v15\_ext1-v2/MINIAODSIM  & & \\
+\hline
+WZTo3LNu4 & /WZTo3LNu\_mllmin01\_NNPDF31\_TuneCP5\_13TeV &  89,479,400 & $62.17 \pm	0.23$\\
+& \_powheg\_pythia8/RunIIAutumn18MiniAOD-102X\_ & & \\
+& upgrade2018\_realistic\_v15-v1/MINIAODSIM & & \\
+\hline
+TTZToLLNuNu & /TTZToLLNuNu\_M-10\_TuneCP5\_13TeV-amcatnlo- & 13,280,000 & $0.2432 \pm 0.0003$ \\
+& pythia8/RunIIAutumn18MiniAOD-102X\_upgrade2018\_ & & \\
+& realistic\_v15\_ext1-v2/MINIAODSIM & &	 \\
 \hline
 \end{tabular}
 \label{tab:MET_MC_datasets}
-
 \end{table}
 
-\iffalse
 
-\fi   
 
+\section{Event Pre-Selection}
+Events are pre-selected which have at least three muons with pT $> 5$ GeV and at least one muon with $p_T > 12$ GeV, and are required to be in the run range specified in this JSON file Cert\_314472-325175\_13TeV\_17SeptEarlyReReco2018ABC\_PromptEraD\_Collisions18\_JSON.txt. Events with more than 3 muons with $> 5$ GeV are rejected. The pre-selection accepts 3.4\% of the events in data, as can be seen in Tab.~\ref{tab:met_preselection}. Events in Monte Carlo are not pre-selected.
+
+\begin{table}[htb]
+\centering
+\caption{2018 MET Data pre-selection numbers}
+\begin{tabular}{|crr|}
+\hline
+Sample & Total Events & Pre-selected Events \\
+\hline
+\hline
+2018A & 52,744,621 & 1,810,214\\ 
+2018B & 29,714,277 & 921,467 \\
+2018C & 31,237,456 & 1,146,290 \\
+2018D & 162,272,551 & 5,403,483 \\
+\hline
+2018 & 275,968,905 & 9,281,454 \\
+\hline
+\end{tabular}
+\label{tab:met_preselection}
+\end{table}
 
 \section{Event Selection}
 Events are required to pass at least one MET trigger (see Tab.~\ref{tab:puremettriggers}). Each of these trigger applies a cut of at least $100 GeV$ on the missing transverse energy in the trigger. In addition, events must have exactly three muons with $|\eta|<2.4$ and with transverse momenta thresholds $40:40:10 ~GeV$. The thresholds have been chosen to reduce the nonprompt contribution. Two muons must have the same charge and one muon have the oppositely charge. Two event categories can thus be identified: $\mu^+\mu^+\mu^-$ and $\mu^+\mu^-\mu^-$. The muons must be prompt, i.e. $dxy < 0.01$~cm and $dz < 0.1$~cm, and must pass the tight ID and tight PF isolation requirement. These selections significantly reduce decays-in-flight. Two muons with opposite charge and with an invariant mass compatible with the $Z$ mass ($|m\_{2mu}-m\_Z|<15~ GeV$) are paired. At least one pair is required in each event. Finally, events with at least one $b$ jet with $p\_T >20 GeV$ are vetoed.
@@ -138,43 +166,34 @@ Trigger Path \\
 \label{tab:puremettriggers}
 \end{table}
 
-Event pre-selection. We pre-select events which have at least three muons with pT $> 5$ GeV and at least one muon with pT > 12 GeV. Events with more than 3 muons with $> 5$ GeV are rejected. The preselection accepts 3.4\% of the events in data, as can be seen in Tab.~\ref{tab:met_preselection}. Events are required to be in the run range specified in this JSON file Cert\_314472-325175\_13TeV\_17SeptEarlyReReco2018ABC\_PromptEraD\_Collisions18\_JSON.txt.
+Events in Monte Carlo are weighted according to 
+\begin{equation}
+cross~section \times  luminosity \times relative~generator~weight \times pileup weight
+\end{equation}
 
 
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/pileup_pp_2018_69200.pdf}
+\caption{Average pileup in 2018. Mean number of interactions per bunch crossing for the 2018 pp run at 13 TeV, using the online luminosity values. The two plots shown here use the same data but with different values assumed for the minimum bias cross section. The left plot uses the "CMS recommended" value of 69.2 mb, which is determined by finding the best agreement with data and is recommended for CMS analyses.}
+\label{fig:pileup_in_data}
+\end{figure}
 
-\begin{table}[htb]
-\centering
-\caption{2018 MET Data pre-selection numbers}
-\begin{tabular}{|crr|}
-\hline
-Sample & Total Events & Pre-selected Events \\
-\hline
-\hline
-2018A & 52,744,621 & 1,810,214\\ 
-2018B & 29,714,277 & 921,467 \\
-2018C & 31,237,456 & 1,146,290 \\
-2018D & 162,272,551 & 5,403,483 \\
-\hline
-2018 & 275,968,905 & 9,281,454 \\
-\hline
-\end{tabular}
-\label{tab:met_preselection}
-\end{table}
+
 
 
 \newpage
 \section{Results}
 Add plots and tables here
 
-\begin{table}
+\begin{table}[htb]
+\centering
 \caption{Cutflow table for the WZ control region}
-\begin{tabular}{cccc}
+\begin{tabular}{|cccc|}
 \hline
 Selection & WZ & ttZ& Data \\
 \hline
 \hline
 No selection & \\
-
 \hline
 \end{tabular}
 \end{table}
