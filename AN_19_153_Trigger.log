@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 DEC 2020 18:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  9 DEC 2020 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -290,44 +290,198 @@ Overfull \hbox (0.55974pt too wide) in paragraph at lines 54--82
  [][] 
  []
 
+<figures/pileup_pp_2018_69200.pdf, id=12, 578.16pt x 433.62pt>
+File: figures/pileup_pp_2018_69200.pdf Graphic file (type pdf)
+<use figures/pileup_pp_2018_69200.pdf>
+Package pdftex.def Info: figures/pileup_pp_2018_69200.pdf  used on input line 8
+5.
+(pdftex.def)             Requested size: 241.84843pt x 181.38472pt.
+<figures/pileup_2018MC_v2.pdf, id=13, 569.12625pt x 387.4475pt>
+File: figures/pileup_2018MC_v2.pdf Graphic file (type pdf)
+<use figures/pileup_2018MC_v2.pdf>
+Package pdftex.def Info: figures/pileup_2018MC_v2.pdf  used on input line 86.
+(pdftex.def)             Requested size: 241.84843pt x 164.64822pt.
 
-Overfull \hbox (2.64061pt too wide) in paragraph at lines 86--87
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 85--87
+[][] [] 
+ []
+
+[2]
+Overfull \hbox (2.64061pt too wide) in paragraph at lines 94--95
 \OT1/cmr/m/n/12 Cert[]314472-325175[]13TeV[]17SeptEarlyReReco2018ABC[]PromptEra
 D[]Collisions18[]JSON.txt.
  []
 
-[2]
+[3 <./figures/pileup_pp_2018_69200.pdf> <./figures/pileup_2018MC_v2.pdf, page i
+s rotated 90 degrees>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 110.
+               Default added (so using `!tbp') on input line 122.
 
-<figures/pileup_pp_2018_69200.pdf, id=22, 578.16pt x 433.62pt>
-File: figures/pileup_pp_2018_69200.pdf Graphic file (type pdf)
-<use figures/pileup_pp_2018_69200.pdf>
-Package pdftex.def Info: figures/pileup_pp_2018_69200.pdf  used on input line 1
-77.
-(pdftex.def)             Requested size: 241.84843pt x 181.38472pt.
-<figures/pileup_2018MC_v2.pdf, id=23, 569.12625pt x 387.4475pt>
-File: figures/pileup_2018MC_v2.pdf Graphic file (type pdf)
-<use figures/pileup_2018MC_v2.pdf>
-Package pdftex.def Info: figures/pileup_2018MC_v2.pdf  used on input line 178.
-(pdftex.def)             Requested size: 241.84843pt x 164.64822pt.
+[4] [5]
+<figures/Combine_best_OS_dimuon_mass.pdf, id=147, 569.12625pt x 408.52625pt>
+File: figures/Combine_best_OS_dimuon_mass.pdf Graphic file (type pdf)
+<use figures/Combine_best_OS_dimuon_mass.pdf>
+Package pdftex.def Info: figures/Combine_best_OS_dimuon_mass.pdf  used on input
+ line 210.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+<figures/Combine_m123.pdf, id=148, 569.12625pt x 408.52625pt>
+File: figures/Combine_m123.pdf Graphic file (type pdf)
+<use figures/Combine_m123.pdf>
+Package pdftex.def Info: figures/Combine_m123.pdf  used on input line 211.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+<figures/Combine_nBJet_20.pdf, id=149, 569.12625pt x 408.52625pt>
+File: figures/Combine_nBJet_20.pdf Graphic file (type pdf)
+<use figures/Combine_nBJet_20.pdf>
+Package pdftex.def Info: figures/Combine_nBJet_20.pdf  used on input line 212.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 177--179
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 210--213
+[][] []
+ []
+
+<figures/Combine_pfMET.pdf, id=150, 569.12625pt x 408.52625pt>
+File: figures/Combine_pfMET.pdf Graphic file (type pdf)
+<use figures/Combine_pfMET.pdf>
+Package pdftex.def Info: figures/Combine_pfMET.pdf  used on input line 216.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+<figures/Combine_pfMET_phi.pdf, id=151, 569.12625pt x 408.52625pt>
+File: figures/Combine_pfMET_phi.pdf Graphic file (type pdf)
+<use figures/Combine_pfMET_phi.pdf>
+Package pdftex.def Info: figures/Combine_pfMET_phi.pdf  used on input line 217.
+
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+<figures/Combine_selMu0_charge.pdf, id=152, 569.12625pt x 408.52625pt>
+File: figures/Combine_selMu0_charge.pdf Graphic file (type pdf)
+<use figures/Combine_selMu0_charge.pdf>
+Package pdftex.def Info: figures/Combine_selMu0_charge.pdf  used on input line 
+218.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+<figures/Combine_selMu0_eta.pdf, id=153, 569.12625pt x 408.52625pt>
+File: figures/Combine_selMu0_eta.pdf Graphic file (type pdf)
+<use figures/Combine_selMu0_eta.pdf>
+Package pdftex.def Info: figures/Combine_selMu0_eta.pdf  used on input line 219
+.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 216--220
+[][] []
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 216--220
+[] [] 
+ []
+
+<figures/Combine_selMu0_pT.pdf, id=154, 569.12625pt x 408.52625pt>
+File: figures/Combine_selMu0_pT.pdf Graphic file (type pdf)
+<use figures/Combine_selMu0_pT.pdf>
+Package pdftex.def Info: figures/Combine_selMu0_pT.pdf  used on input line 223.
+
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+<figures/Combine_selMu0_phi.pdf, id=155, 569.12625pt x 408.52625pt>
+File: figures/Combine_selMu0_phi.pdf Graphic file (type pdf)
+<use figures/Combine_selMu0_phi.pdf>
+Package pdftex.def Info: figures/Combine_selMu0_phi.pdf  used on input line 224
+.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+<figures/Combine_selMu1_charge.pdf, id=156, 569.12625pt x 408.52625pt>
+File: figures/Combine_selMu1_charge.pdf Graphic file (type pdf)
+<use figures/Combine_selMu1_charge.pdf>
+Package pdftex.def Info: figures/Combine_selMu1_charge.pdf  used on input line 
+225.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+<figures/Combine_selMu1_eta.pdf, id=157, 569.12625pt x 408.52625pt>
+File: figures/Combine_selMu1_eta.pdf Graphic file (type pdf)
+<use figures/Combine_selMu1_eta.pdf>
+Package pdftex.def Info: figures/Combine_selMu1_eta.pdf  used on input line 226
+.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 223--227
+[][] []
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 223--227
+[] [] 
+ []
+
+<figures/Combine_selMu1_pT.pdf, id=158, 569.12625pt x 408.52625pt>
+File: figures/Combine_selMu1_pT.pdf Graphic file (type pdf)
+<use figures/Combine_selMu1_pT.pdf>
+Package pdftex.def Info: figures/Combine_selMu1_pT.pdf  used on input line 230.
+
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+<figures/Combine_selMu1_phi.pdf, id=159, 569.12625pt x 408.52625pt>
+File: figures/Combine_selMu1_phi.pdf Graphic file (type pdf)
+<use figures/Combine_selMu1_phi.pdf>
+Package pdftex.def Info: figures/Combine_selMu1_phi.pdf  used on input line 231
+.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+<figures/Combine_selMu2_charge.pdf, id=160, 569.12625pt x 408.52625pt>
+File: figures/Combine_selMu2_charge.pdf Graphic file (type pdf)
+<use figures/Combine_selMu2_charge.pdf>
+Package pdftex.def Info: figures/Combine_selMu2_charge.pdf  used on input line 
+232.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+<figures/Combine_selMu2_eta.pdf, id=161, 569.12625pt x 408.52625pt>
+File: figures/Combine_selMu2_eta.pdf Graphic file (type pdf)
+<use figures/Combine_selMu2_eta.pdf>
+Package pdftex.def Info: figures/Combine_selMu2_eta.pdf  used on input line 233
+.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 230--234
+[][] []
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 230--234
+[] [] 
+ []
+
+<figures/Combine_selMu2_pT.pdf, id=162, 569.12625pt x 408.52625pt>
+File: figures/Combine_selMu2_pT.pdf Graphic file (type pdf)
+<use figures/Combine_selMu2_pT.pdf>
+Package pdftex.def Info: figures/Combine_selMu2_pT.pdf  used on input line 237.
+
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+<figures/Combine_selMu2_phi.pdf, id=163, 569.12625pt x 408.52625pt>
+File: figures/Combine_selMu2_phi.pdf Graphic file (type pdf)
+<use figures/Combine_selMu2_phi.pdf>
+Package pdftex.def Info: figures/Combine_selMu2_phi.pdf  used on input line 238
+.
+(pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 237--239
 [][] [] 
  []
 
-[3 <./figures/pileup_pp_2018_69200.pdf> <./figures/pileup_2018MC_v2.pdf, page i
-s rotated 90 degrees>] [4] [5] [6] (./AN_19_153_Trigger.aux)
+[6 <./figures/Combine_best_OS_dimuon_mass.pdf, page is rotated 90 degrees> <./f
+igures/Combine_m123.pdf, page is rotated 90 degrees> <./figures/Combine_nBJet_2
+0.pdf, page is rotated 90 degrees>] [7 <./figures/Combine_pfMET.pdf, page is ro
+tated 90 degrees> <./figures/Combine_pfMET_phi.pdf, page is rotated 90 degrees>
+ <./figures/Combine_selMu0_charge.pdf, page is rotated 90 degrees> <./figures/C
+ombine_selMu0_eta.pdf, page is rotated 90 degrees>] [8 <./figures/Combine_selMu
+0_pT.pdf, page is rotated 90 degrees> <./figures/Combine_selMu0_phi.pdf, page i
+s rotated 90 degrees> <./figures/Combine_selMu1_charge.pdf, page is rotated 90 
+degrees> <./figures/Combine_selMu1_eta.pdf, page is rotated 90 degrees> <./figu
+res/Combine_selMu1_pT.pdf, page is rotated 90 degrees> <./figures/Combine_selMu
+1_phi.pdf, page is rotated 90 degrees> <./figures/Combine_selMu2_charge.pdf, pa
+ge is rotated 90 degrees> <./figures/Combine_selMu2_eta.pdf, page is rotated 90
+ degrees>] [9 <./figures/Combine_selMu2_pT.pdf, page is rotated 90 degrees> <./
+figures/Combine_selMu2_phi.pdf, page is rotated 90 degrees>]
+(./AN_19_153_Trigger.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3030 strings out of 492616
- 41104 string characters out of 6129482
- 122896 words of memory out of 5000000
- 6900 multiletter control sequences out of 15000+600000
+ 3115 strings out of 492616
+ 44254 string characters out of 6129482
+ 121896 words of memory out of 5000000
+ 6968 multiletter control sequences out of 15000+600000
  15380 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,25p,1277b,213s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -346,10 +500,10 @@ xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on AN_19_153_Trigger.pdf (6 pages, 664164 bytes).
+Output written on AN_19_153_Trigger.pdf (9 pages, 869216 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 960 PDF objects out of 1000 (max. 8388607)
+ 437 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

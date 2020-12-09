@@ -24,7 +24,7 @@ We use several muon signal triggers as described in Sec.~\ref{sec:evt_sel}. The 
 \newpage
 \section{Datasets}
 
-We use the MiniAOD samples shown below in Tab.~\ref{tab:MET_Run2018_datasets}. Additionally, we use WZ Monte Carlo and ttZ Monte Carlo datasets shown in Tab.~\ref{tab:MET_MC_datasets}.  The cross sections were calculated with the GenXSecAnalyzer \footnote{https://twiki.cern.ch/twiki/bin/view/CMS/HowToGenXSecAnalyzer}.
+We use the MiniAOD samples shown below in Tab.~\ref{tab:MET_Run2018_datasets}. Additionally, we use WZ Monte Carlo and ttZ Monte Carlo datasets shown in Tab.~\ref{tab:MET_MC_datasets}.  The cross sections were calculated with the GenXSecAnalyzer \footnote{https://twiki.cern.ch/twiki/bin/view/CMS/HowToGenXSecAnalyzer}. The mean number of interactions per bunch crossing for the 2018 pp run at 13 TeV and in simulation is shown in Fig.~\ref{fig:pileup_in_data}.
 
 \begin{table}[htb]
 \footnotesize
@@ -81,9 +81,17 @@ TTZToLLNuNu & /TTZToLLNuNu\_M-10\_TuneCP5\_13TeV-amcatnlo- & 13,280,000 & $0.243
 \label{tab:MET_MC_datasets}
 \end{table}
 
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/pileup_pp_2018_69200.pdf}
+\includegraphics[width=0.5\textwidth]{figures/pileup_2018MC_v2.pdf}
+\caption{Left: Average pileup in 2018. Mean number of interactions per bunch crossing for the 2018 pp run at 13 TeV, using the online luminosity values. The plot uses the CMS recommended value of 69.2 mb for the minimum bias cross section, which is determined by finding the best agreement with data and is recommended for CMS analyses. Right: Simulated average pileup in 2018 with the \texttt{mix\_2018\_25ns\_JuneProjectionFull18\_PoissonOOTPU\_cfi} configuration.}
+\label{fig:pileup_in_data}
+\end{figure}
+
+\newpage
 
 \section{Event Pre-Selection}
-Events are pre-selected which have at least three muons with pT $> 5$ GeV and at least one muon with $p_T > 12$ GeV, and are required to be in the run range specified in this JSON file Cert\_314472-325175\_13TeV\_17SeptEarlyReReco2018ABC\_PromptEraD\_Collisions18\_JSON.txt. Events with more than 3 muons with $> 5$ GeV are rejected. The pre-selection accepts 3.4\% of the events in data, as can be seen in Tab.~\ref{tab:met_preselection}. Events in Monte Carlo are not pre-selected.
+Events are pre-selected which have at least three muons with pT $> 5$ GeV and at least one muon with $p_T > 12$ GeV, and are required to be in the run range specified in this JSON file Cert\_314472-325175\_13TeV\_17SeptEarlyReReco2018ABC\_PromptEraD\_Collisions18\_JSON.txt. Events with more than 3 muons with $> 5$ GeV are rejected. The pre-selection accepts 3.4\% of the events in data, as can be seen in Tab.~\ref{tab:met_preselection}. Events in Monte Carlo are not pre-selected. 
 
 \begin{table}[htb]
 \centering
@@ -103,6 +111,10 @@ Sample & Total Events & Pre-selected Events \\
 \end{tabular}
 \label{tab:met_preselection}
 \end{table}
+
+
+
+\newpage
 
 \section{Event Selection}
 Events are required to pass at least one MET trigger (see Tab.~\ref{tab:puremettriggers}). Each of these trigger applies a cut of at least $100 GeV$ on the missing transverse energy in the trigger. In addition, events must have exactly three muons with $|\eta|<2.4$ and with transverse momenta thresholds $40:40:10 ~GeV$. The thresholds have been chosen to reduce the nonprompt contribution. Two muons must have the same charge and one muon have the oppositely charge. Two event categories can thus be identified: $\mu^+\mu^+\mu^-$ and $\mu^+\mu^-\mu^-$. The muons must be prompt, i.e. $dxy < 0.01$~cm and $dz < 0.1$~cm, and must pass the tight ID and tight PF isolation requirement. These selections significantly reduce decays-in-flight. Two muons with opposite charge and with an invariant mass compatible with the $Z$ mass ($|m\_{2mu}-m\_Z|<15~ GeV$) are paired. At least one pair is required in each event. Finally, events with at least one $b$ jet with $p\_T >20 GeV$ are vetoed.
@@ -167,18 +179,13 @@ Trigger Path \\
 \label{tab:puremettriggers}
 \end{table}
 
-Events in Monte Carlo are weighted according to 
+Events in Monte Carlo are weighted according to. The luminosity is $59.7~ \mathrm{fb}^{-1}$
 \begin{equation}
 cross~section \times  luminosity \times relative~generator~weight \times pileup weight
 \end{equation}
 
 
-\begin{figure}[htb]
-\includegraphics[width=0.5\textwidth]{figures/pileup_pp_2018_69200.pdf}
-\includegraphics[width=0.5\textwidth]{figures/pileup_2018MC_v2.pdf}
-\caption{Left: Average pileup in 2018. Mean number of interactions per bunch crossing for the 2018 pp run at 13 TeV, using the online luminosity values. The plot uses the CMS recommended value of 69.2 mb for the minimum bias cross section, which is determined by finding the best agreement with data and is recommended for CMS analyses. Right: Simulated average pileup in 2018 with the \texttt{mix\_2018\_25ns\_JuneProjectionFull18\_PoissonOOTPU\_cfi} configuration.}
-\label{fig:pileup_in_data}
-\end{figure}
+
 
 \newpage
 \section{Results}
@@ -187,15 +194,49 @@ Add plots and tables here
 \begin{table}[htb]
 \centering
 \caption{Cutflow table for the WZ control region}
-\begin{tabular}{|cccc|}
+\begin{tabular}{|ccccccc|}
 \hline
-Selection & WZ & ttZ& Data \\
+Selection & WZTo3LNu1 & WZTo3LNu3 & WZTo3LNu3 & WZTo3LNu4 & ttZ& Data \\
 \hline
 \hline
-No selection & \\
+No selection & & & & & & \\
 \hline
 \end{tabular}
 \end{table}
+
+Figures of data vs monte carlo comparisons, efficiencies in data, efficiencies in monte carlo.
+
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/Combine_best_OS_dimuon_mass.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_m123.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_nBJet_20.pdf}
+\end{figure}
+
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/Combine_pfMET.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_pfMET_phi.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_charge.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_eta.pdf}
+\end{figure}
+
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_pT.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_phi.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_charge.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_eta.pdf}
+\end{figure}
+
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_pT.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_phi.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_charge.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_eta.pdf}
+\end{figure}
+
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_pT.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_phi.pdf}
+\end{figure}
    
 \newpage
 
