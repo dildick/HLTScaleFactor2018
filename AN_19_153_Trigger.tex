@@ -24,7 +24,7 @@ We use several muon signal triggers as described in Sec.~\ref{sec:evt_sel}. The 
 \newpage
 \section{Datasets}
 
-We use the MiniAOD samples shown below in Tab.~\ref{tab:MET_Run2018_datasets}. Additionally, we use WZ Monte Carlo and ttZ Monte Carlo datasets shown in Tab.~\ref{tab:MET_MC_datasets}.
+We use the MiniAOD samples shown below in Tab.~\ref{tab:MET_Run2018_datasets}. Additionally, we use WZ Monte Carlo and ttZ Monte Carlo datasets shown in Tab.~\ref{tab:MET_MC_datasets}.  The cross sections were calculated with the GenXSecAnalyzer \footnote{https://twiki.cern.ch/twiki/bin/view/CMS/HowToGenXSecAnalyzer}.
 
 \begin{table}[htb]
 \footnotesize
@@ -50,21 +50,21 @@ Total & 275,968,905  \\
 \footnotesize
 \centering
 \caption{Monte Carlo samples for the trigger scale factor studies: $WZ \rightarrow 3l\nu$ process and $ttZ\rightarrow ll\nu\nu$ process.}
+{
 \begin{tabular}{| l | l | l | c | c | }
 \hline
 Abbreviation & Dataset name &  Events & Cross Section [pb]\\
 \hline
 \hline
-WZTo3LNu1 & WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8 & 10,749,269 & $5.052 \pm	0.0175$\\
-& /RunIIAutumn18MiniAOD-102X\_upgrade2018\_ & & 
-\\ 
+WZTo3LNu1 & WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8 & 10,749,269 & $5.114 \pm 0.075$ \\
+& /RunIIAutumn18MiniAOD-102X\_upgrade2018\_ & &  \\ 
 & realistic\_v15-v1/MINIAODSIM & &  \\
 \hline
-WZTo3LNu2 &  /WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8  & 11,248,318 & $5.052 \pm	0.0175$ \\
+WZTo3LNu2 &  /WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8  & 11,248,318 & $5.120 \pm 0.021$ \\
 & /RunIIAutumn18MiniAOD-102X\_upgrade2018\_ & & \\ 
 & realistic\_v15\_ext1-v2/MINIAODSIM  & & \\
 \hline
-WZTo3LNu3 &/WZTo3LNu\_TuneCP5\_13TeV-powheg-pythia8 & 1,976,600 & \\
+WZTo3LNu3 &/WZTo3LNu\_TuneCP5\_13TeV-powheg-pythia8 & 1,976,600 & $4.658 \pm 0.005$ \\
 &/RunIIAutumn18MiniAOD-102X\_upgrade2018\_  & & \\
 & realistic\_v15\_ext1-v2/MINIAODSIM  & & \\
 \hline
@@ -77,9 +77,9 @@ TTZToLLNuNu & /TTZToLLNuNu\_M-10\_TuneCP5\_13TeV-amcatnlo- & 13,280,000 & $0.243
 & realistic\_v15\_ext1-v2/MINIAODSIM & &	 \\
 \hline
 \end{tabular}
+}
 \label{tab:MET_MC_datasets}
 \end{table}
-
 
 
 \section{Event Pre-Selection}
