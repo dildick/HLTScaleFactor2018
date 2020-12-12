@@ -109,7 +109,7 @@ TTZToLLNuNu & /TTZToLLNuNu\_M-10\_TuneCP5\_13TeV-amcatnlo- & 13,280,000 & $0.243
 \section{Event Selection}
 Events are required to pass at least one SingleMuon trigger (see Tab.~\ref{tab:puremettriggers}). Furthermore, events must have exactly three muons $|\eta|<2.4$ and with transverse momenta thresholds $p_{\mathrm{T},1} > 20$ GeV, $p_{\mathrm{T},2} > 20$ GeV, $p_{\mathrm{T},3} > 10$ GeV. The events are further cleaned by requiring that each muon passes the medium muon ID. To suppress muons from hadrons decaying in-flight (nonprompt muons), selections on the muon impact parameter and distance to the interaction point (IP) are applied. The impact parameter must be $|d_{xy,i}| < 0.005$ cm and the distance to the IP $|d_{z,i}| < 0.01$ cm for each muon. Non-isolated muons are rejected. A relative isolation cut of  $relIso < 0.1$ is applied on each muon. Two muons with opposite charge and with an invariant mass compatible with the Z mass ($|m_{\mu\mu}-m_Z|<10$ GeV) are paired. At least one pair is required in each event. 
 \\ \\
-Table.~\ref{tab:event_selection_cutflow} shows the event selection in data and Monte Carlo. Figures~\ref{fig:data_vs_mc_1}-\ref{fig:data_vs_mc_7} showt the agreement between data and Monte  Carlo for several event variables.
+Table.~\ref{tab:event_selection_cutflow} shows the event selection in data and Monte Carlo. The data are found to be consistent with the Monte Carlo prediction. Figures~\ref{fig:data_vs_mc_1}-\ref{fig:data_vs_mc_7} shows the agreement between data and Monte Carlo for several event variables.
 
 \begin{table}[!]
 \centering
@@ -198,7 +198,7 @@ $|d_{xy,i}| < 0.005$ cm
 $|d_{z,i}| < 0.01$ cm
 & 709.53 & 65.70 & 4652 \\
 
-RelIso$relIso < 0.1$
+RelIso$_{i} < 0.1$
 & 466.64 & 39.49 & 591 \\
 
 Two muons with opposite charge 
@@ -214,7 +214,7 @@ Passes at least one signal trigger
 \label{tab:event_selection_cutflow}
 \end{table}
 
-
+\newpage
 \begin{figure}[htb]
 \includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_pT.pdf}
 \includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_eta.pdf}
@@ -222,7 +222,7 @@ Passes at least one signal trigger
 \includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_phi.pdf}
 \includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_charge.pdf}
 \label{fig:data_vs_mc_1}
-\caption{Data vs Monte Carlo comparisons in the control region.}
+\caption{Data vs Monte Carlo comparisons in the control region. Properties of the leading muon.}
 \end{figure}
 
 \begin{figure}[htb]
@@ -232,7 +232,7 @@ Passes at least one signal trigger
 \includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_PFIso.pdf}
 \includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_isMedium.pdf}
 \label{fig:data_vs_mc_2}
-\caption{Data vs Monte Carlo comparisons in the control region (continued).}
+\caption{Data vs Monte Carlo comparisons in the control region. Properties of the leading muon (continued).}
 
 \end{figure}
 
@@ -244,7 +244,7 @@ Passes at least one signal trigger
 \includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_phi.pdf}
 \includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_charge.pdf}
 \label{fig:data_vs_mc_3}
-\caption{Data vs Monte Carlo comparisons in the control region (continued).}
+\caption{Data vs Monte Carlo comparisons in the control region. Properties of the second muon.}
 
 \end{figure}
 
@@ -255,7 +255,7 @@ Passes at least one signal trigger
 \includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_PFIso.pdf}
 \includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_isMedium.pdf}
 \label{fig:data_vs_mc_4}
-\caption{Data vs Monte Carlo comparisons in the control region (continued).}
+\caption{Data vs Monte Carlo comparisons in the control region. Properties of the second muon (continued).}
 
 \end{figure}
 
@@ -268,7 +268,7 @@ Passes at least one signal trigger
 \includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_phi.pdf}
 \includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_charge.pdf}
 \label{fig:data_vs_mc_5}
-\caption{Data vs Monte Carlo comparisons in the control region (continued).}
+\caption{Data vs Monte Carlo comparisons in the control region. Properties of the third muon (continued).}
 
 \end{figure}
 
@@ -300,5 +300,5 @@ Passes at least one signal trigger
 
 \newpage
 \section{Results} 
-The trigger efficiency on Monte Carlo is evaluated as $\varepsilon_{WZTo3LNu} = 385.37 / 389.29 = 99\%$, $\varepsilon_{ZZTo4L} = 23.21/23.46= 99\%$. Efficiency in data is observed to be $\varepsilon_{Data} = 396 / 402 = 98.5\%$. This results in a trigger scale factor of $SF = 98.5\% /  99\% =99.5\%$. A statistical uncertainty of 5\% on the selected data events is quoted in the control region. The overall trigger scale factor is estimated to be $99.5\% \pm 5\%(\mathrm{stat.})$.
+The trigger efficiency on Monte Carlo is evaluated as $\varepsilon_\mathrm{WZTo3LNu} = 385.37 / 389.29 = 0.99$, $\varepsilon_\mathrm{ZZTo4L} = 23.21/23.46= 0.99$. Efficiency in data is observed to be $\varepsilon_\mathrm{Data} = 396 / 402 = 0.985$. This results in a trigger scale factor of $SF = 0.985 /  0.99 =0.995$. A statistical uncertainty of 5\% on the selected data events is quoted in the control region. The overall trigger scale factor is estimated to be $99.5\% \pm 5\%~(\mathrm{stat.})$.
 \end{document}
