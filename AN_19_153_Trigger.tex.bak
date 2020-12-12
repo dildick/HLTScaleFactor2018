@@ -1,11 +1,11 @@
-\documentclass[12pt,a4paper]{paper}
+\documentclass[12pta4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{graphicx}
 \usepackage{amssymb}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\author{Sven Dildick, Wei Shi (Rice University)}
+\usepackage[left=2cmright=2cmtop=2cmbottom=2cm]{geometry}
+\author{Sven Dildick Wei Shi (Rice University)}
 \title{Determination of the Trigger Scale Factors for a search for new light bosons decaying to muon pairs with 2018 Data (AN-19-153 ).}
 
 
@@ -13,34 +13,77 @@
 \maketitle
 
 \section{Introduction}
-Our aa->4mu analysis is progressing well and we're at the point where we want to estimate the trigger scale factor.
-In our analysis we use a number of multi-muon triggers, both dimuon and trimuon. In the previous iteration where we used a trimuon trigger we employed the orthogonal method. In the current analysis we use a combination of triggers: HLT\_DoubleL2Mu23NoVtx\_2Cha, HLT\_Mu18\_Mu9\_SameSign and HLT\_TripleMu\_12\_10\_5 and HLT\_TrkMu12\_DoubleTrkMu5NoFiltersNoVtxv. For the double muon triggers we could try using the tag-and-probe method if the single muon legs were included in the menu. For the two triple-muon triggers we were considering the orthogonal method, where we use data sets other than the DoubleMuon (e.g. MET, SingleElectron,...). Do you know if there are other options for trimuon triggers? Also, what would be the best procedure is to estimate the overall trigger scale factor? 
+Our $aa \rightarrow $ analysis is progressing well and we're at the point where we want to estimate the trigger scale factor.
+In our analysis we use a number of multi-muon triggers both dimuon and trimuon. In the previous iteration where we used a trimuon trigger we employed the orthogonal method. In the current analysis we use a combination of triggers shown in Tab.~\ref{tab:signaltriggers}.
+
+\begin{table}[htb]
+\centering
+\caption{Signal Triggers used in the Analysis}
+\begin{tabular}{|l|}
+\hline
+Trigger Path \\
+\hline
+\hline
+HLT\_DoubleL2Mu23NoVtx\_2Cha \\
+HLT\_Mu18\_Mu9\_SameSign \\
+HLT\_TripleMu\_12\_10\_5 \\
+HLT\_TrkMu12\_DoubleTrkMu5NoFiltersNoVtxv \\
+\hline
+\end{tabular}
+\label{tab:signaltriggers}
+\end{table}
+
+For the double muon triggers we could try using the tag-and-probe method if the single muon legs were included in the menu. For the two triple-muon triggers we were considering the orthogonal method where we use data sets other than the DoubleMuon (e.g. MET SingleElectron...). Do you know if there are other options for trimuon triggers? Also what would be the best procedure is to estimate the overall trigger scale factor? 
 \\ \\
-In your case, it looks too complicated to derive the overall trigger scale factor out of individual scale factors. It might be more realistic to measure the overall efficiency at once instead of breaking it down into individual trigger efficiencies. The reference trigger method [1] is popularly used to measure the efficiency of a mixture of multi-muon triggers, but it seems not applicable to your analysis as there are no shared legs (and also no corresponding control triggers I guess) of the same muon type among your triggers. For now I couldn't think of anything other than just measuring the overall trigger efficiency using the orthogonal method.
+In your case it looks too complicated to derive the overall trigger scale factor out of individual scale factors. It might be more realistic to measure the overall efficiency at once instead of breaking it down into individual trigger efficiencies. The reference trigger method [1] is popularly used to measure the efficiency of a mixture of multi-muon triggers but it seems not applicable to your analysis as there are no shared legs (and also no corresponding control triggers I guess) of the same muon type among your triggers. For now I couldn't think of anything other than just measuring the overall trigger efficiency using the orthogonal method.
 
 \section{Methodology}
-We use several muon signal triggers as described in Sec.~\ref{sec:evt_sel}. The scale factor of the signal triggers will be estimated with the orthogonal method using three-muon events emulating $WZ$ events as done in the previous iteration of this analysis ~\cite{CMS2016Result}. The orthogonal method assumes that such events are mainly triggered by the substantial MET in the event topology, and therefore independent of muons selection criteria. The efficiency of the triple-muon trigger is determined on events passing a set of selection criteria optimized to select $WZ$ events. This will be done both on data and on MC simulated events. The data are selected using a set of pure MET triggers in the MET dataset. MET triggers with one or more muons in the selection are ignored. MC events are simulated for the processes (1) $pp \rightarrow WZ$ and (2) $pp \rightarrow t\bar{t}Z$. The data and MC samples will be cleaned by selecting high-quality muons to obtain a set of well-reconstructed $WZ$-like events. The selection criteria are being derived from Ref.~\cite{Khachatryan:2016tgp}. Data vs MC plots in the control region and plot of the efficiency of control region events to pass the signal trigger will be added soon. 
+We use several muon signal triggers as described in Sec.~\ref{sec:evt_sel}. The scale factor of the signal triggers will be estimated with the orthogonal method using three-muon events emulating $WZ$ events as done in the previous iteration of this analysis ~\cite{CMS2016Result}. The orthogonal method assumes that such events are mainly triggered by the substantial MET in the event topology and therefore independent of muons selection criteria. The efficiency of the triple-muon trigger is determined on events passing a set of selection criteria optimized to select $WZ$ events. This will be done both on data and on MC simulated events. The data are selected using a set of pure MET triggers in the MET dataset. MET triggers with one or more muons in the selection are ignored. MC events are simulated for the processes (1) $pp \rightarrow WZ$ and (2) $pp \rightarrow t\bar{t}Z$. The data and MC samples will be cleaned by selecting high-quality muons to obtain a set of well-reconstructed $WZ$-like events. The selection criteria are being derived from Ref.~\cite{Khachatryan:2016tgp}. Data vs MC plots in the control region and plot of the efficiency of control region events to pass the signal trigger will be added soon. 
 
 \newpage
 \section{Datasets}
 
-We use the MiniAOD samples shown below in Tab.~\ref{tab:MET_Run2018_datasets}. Additionally, we use WZ Monte Carlo and ttZ Monte Carlo datasets shown in Tab.~\ref{tab:MET_MC_datasets}.  The cross sections were calculated with the GenXSecAnalyzer \footnote{https://twiki.cern.ch/twiki/bin/view/CMS/HowToGenXSecAnalyzer}. The mean number of interactions per bunch crossing for the 2018 pp run at 13 TeV and in simulation is shown in Fig.~\ref{fig:pileup_in_data}.
+We use the MiniAOD samples shown below in Tab.~\ref{tab:MET_Run2018_datasets}. Additionally we use WZ Monte Carlo and ttZ Monte Carlo datasets shown in Tab.~\ref{tab:MET_MC_datasets}.  The cross sections were calculated with the GenXSecAnalyzer \footnote{https://twiki.cern.ch/twiki/bin/view/CMS/HowToGenXSecAnalyzer}. The mean number of interactions per bunch crossing for the 2018 pp run at 13 TeV and in simulation is shown in Fig.~\ref{fig:pileup_in_data}.
+
+%\begin{table}[htb]
+%\footnotesize
+%\centering
+%\caption{MET data samples for the trigger scale factor studies.}
+%\begin{tabular}{|l|c|}
+%\hline
+%Dataset name & Number of events\\
+%\hline
+%\hline
+%/MET/Run2018B-17Sep2018-v1/MINIAOD & 52744621 \\
+%/MET/Run2018B-17Sep2018-v1/MINIAOD & 29714277 \\
+%/MET/Run2018C-17Sep2018-v1/MINIAOD & 31237456 \\
+%/MET/Run2018D-PromptReco-v2/MINIAOD  & 162272551 \\
+%\hline
+%Total & 275968905  \\
+%\hline
+%\end{tabular}
+%\label{tab:MET\_Run2018\_datasets}
+%\end{table}
+
+
+
+
 
 \begin{table}[htb]
 \footnotesize
 \centering
-\caption{MET data samples for the trigger scale factor studies.}
+\caption{SingleMuon data samples for the trigger scale factor studies.}
 \begin{tabular}{|l|c|}
 \hline
 Dataset name & Number of events\\
 \hline
 \hline
-/MET/Run2018B-17Sep2018-v1/MINIAOD & 52,744,621 \\
-/MET/Run2018B-17Sep2018-v1/MINIAOD & 29,714,277 \\
-/MET/Run2018C-17Sep2018-v1/MINIAOD & 31,237,456 \\
-/MET/Run2018D-PromptReco-v2/MINIAOD  & 162,272,551 \\
+/SingleMuon/Run2018A-17Sep2018-v2/MINIAOD & 241608232 \\
+/SingleMuon/Run2018B-17Sep2018-v1/MINIAOD & 119918017 \\
+/SingleMuon/Run2018C-17Sep2018-v1/MINIAOD & 110032072\\
+/MET/Run2018D-PromptReco-v2/MINIAOD  & 506717754 \\
 \hline
-Total & 275,968,905  \\
+Total & 978276075 \\
 \hline
 \end{tabular}
 \label{tab:MET_Run2018_datasets}
@@ -56,23 +99,23 @@ Total & 275,968,905  \\
 Abbreviation & Dataset name &  Events & Cross Section [pb]\\
 \hline
 \hline
-WZTo3LNu1 & WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8 & 10,749,269 & $5.114 \pm 0.075$ \\
+WZTo3LNu1 & WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8 & 10749269 & $5.114 \pm 0.075$ \\
 & /RunIIAutumn18MiniAOD-102X\_upgrade2018\_ & &  \\ 
 & realistic\_v15-v1/MINIAODSIM & &  \\
+%\hline
+%WZTo3LNu2 &  /WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8  & 11248318 & $5.120 \pm 0.021$ \\
+%& /RunIIAutumn18MiniAOD-102X\_upgrade2018\_ & & \\ 
+%& realistic\_v15\_ext1-v2/MINIAODSIM  & & \\
+%\hline
+%WZTo3LNu3 &/WZTo3LNu\_TuneCP5\_13TeV-powheg-pythia8 & 1976600 & $4.658 \pm 0.005$ \\
+%&/RunIIAutumn18MiniAOD-102X\_upgrade2018\_  & & \\
+%& realistic\_v15\_ext1-v2/MINIAODSIM  & & \\
+%\hline
+%WZTo3LNu4 & /WZTo3LNu\_mllmin01\_NNPDF31\_TuneCP5\_13TeV &  89479400 & $62.17 \pm	0.23$\\
+%& \_powheg\_pythia8/RunIIAutumn18MiniAOD-102X\_ & & \\
+%& upgrade2018\_realistic\_v15-v1/MINIAODSIM & & \\
 \hline
-WZTo3LNu2 &  /WZTo3LNu\_TuneCP5\_13TeV-amcatnloFXFX-pythia8  & 11,248,318 & $5.120 \pm 0.021$ \\
-& /RunIIAutumn18MiniAOD-102X\_upgrade2018\_ & & \\ 
-& realistic\_v15\_ext1-v2/MINIAODSIM  & & \\
-\hline
-WZTo3LNu3 &/WZTo3LNu\_TuneCP5\_13TeV-powheg-pythia8 & 1,976,600 & $4.658 \pm 0.005$ \\
-&/RunIIAutumn18MiniAOD-102X\_upgrade2018\_  & & \\
-& realistic\_v15\_ext1-v2/MINIAODSIM  & & \\
-\hline
-WZTo3LNu4 & /WZTo3LNu\_mllmin01\_NNPDF31\_TuneCP5\_13TeV &  89,479,400 & $62.17 \pm	0.23$\\
-& \_powheg\_pythia8/RunIIAutumn18MiniAOD-102X\_ & & \\
-& upgrade2018\_realistic\_v15-v1/MINIAODSIM & & \\
-\hline
-TTZToLLNuNu & /TTZToLLNuNu\_M-10\_TuneCP5\_13TeV-amcatnlo- & 13,280,000 & $0.2432 \pm 0.0003$ \\
+TTZToLLNuNu & /TTZToLLNuNu\_M-10\_TuneCP5\_13TeV-amcatnlo- & 13280000 & $0.2432 \pm 0.0003$ \\
 & pythia8/RunIIAutumn18MiniAOD-102X\_upgrade2018\_ & & \\
 & realistic\_v15\_ext1-v2/MINIAODSIM & &	 \\
 \hline
@@ -84,14 +127,14 @@ TTZToLLNuNu & /TTZToLLNuNu\_M-10\_TuneCP5\_13TeV-amcatnlo- & 13,280,000 & $0.243
 \begin{figure}[htb]
 \includegraphics[width=0.5\textwidth]{figures/pileup_pp_2018_69200.pdf}
 \includegraphics[width=0.5\textwidth]{figures/pileup_2018MC_v2.pdf}
-\caption{Left: Average pileup in 2018. Mean number of interactions per bunch crossing for the 2018 pp run at 13 TeV, using the online luminosity values. The plot uses the CMS recommended value of 69.2 mb for the minimum bias cross section, which is determined by finding the best agreement with data and is recommended for CMS analyses. Right: Simulated average pileup in 2018 with the \texttt{mix\_2018\_25ns\_JuneProjectionFull18\_PoissonOOTPU\_cfi} configuration.}
+\caption{Left: Average pileup in 2018. Mean number of interactions per bunch crossing for the 2018 pp run at 13 TeV using the online luminosity values. The plot uses the CMS recommended value of 69.2 mb for the minimum bias cross section which is determined by finding the best agreement with data and is recommended for CMS analyses. Right: Simulated average pileup in 2018 with the \texttt{mix\_2018\_25ns\_JuneProjectionFull18\_PoissonOOTPU\_cfi} configuration.}
 \label{fig:pileup_in_data}
 \end{figure}
 
 \newpage
 
 \section{Event Pre-Selection}
-Events are pre-selected which have at least three muons with pT $> 5$ GeV and at least one muon with $p_T > 12$ GeV, and are required to be in the run range specified in this JSON file Cert\_314472-325175\_13TeV\_17SeptEarlyReReco2018ABC\_PromptEraD\_Collisions18\_JSON.txt. Events with more than 3 muons with $> 5$ GeV are rejected. The pre-selection accepts 3.4\% of the events in data, as can be seen in Tab.~\ref{tab:met_preselection}. Events in Monte Carlo are not pre-selected. 
+Events are pre-selected which have at least three muons with pT $> 10$ GeV and at least one muon with $p\_T > 20$ GeV and are required to be in the run range specified in this JSON file Cert\_314472-325175\_13TeV\_17SeptEarlyReReco2018ABC\_PromptEraD\_Collisions18\_JSON.txt. Events with more than 3 muons with $> 10$ GeV are rejected. The pre-selection accepts 3.4\% of the events in data as can be seen in Tab.~\ref{tab:met_preselection}. Events in Monte Carlo are not pre-selected. 
 
 \begin{table}[htb]
 \centering
@@ -101,12 +144,12 @@ Events are pre-selected which have at least three muons with pT $> 5$ GeV and at
 Sample & Total Events & Pre-selected Events \\
 \hline
 \hline
-2018A & 52,744,621 & 1,810,214\\ 
-2018B & 29,714,277 & 921,467 \\
-2018C & 31,237,456 & 1,146,290 \\
-2018D & 162,272,551 & 5,403,483 \\
+2018A & 52744621 & 1810214\\ 
+2018B & 29714277 & 921467 \\
+2018C & 31237456 & 1146290 \\
+2018D & 162272551 & 5403483 \\
 \hline
-2018 & 275,968,905 & 9,281,454 \\
+2018 & 275968905 & 9281454 \\
 \hline
 \end{tabular}
 \label{tab:met_preselection}
@@ -117,63 +160,57 @@ Sample & Total Events & Pre-selected Events \\
 \newpage
 
 \section{Event Selection}
-Events are required to pass at least one MET trigger (see Tab.~\ref{tab:puremettriggers}). Each of these trigger applies a cut of at least $100 GeV$ on the missing transverse energy in the trigger. In addition, events must have exactly three muons with $|\eta|<2.4$ and with transverse momenta thresholds $40:40:10 ~GeV$. The thresholds have been chosen to reduce the nonprompt contribution. Two muons must have the same charge and one muon have the oppositely charge. Two event categories can thus be identified: $\mu^+\mu^+\mu^-$ and $\mu^+\mu^-\mu^-$. The muons must be prompt, i.e. $dxy < 0.01$~cm and $dz < 0.1$~cm, and must pass the tight ID and tight PF isolation requirement. These selections significantly reduce decays-in-flight. Two muons with opposite charge and with an invariant mass compatible with the $Z$ mass ($|m\_{2mu}-m\_Z|<15~ GeV$) are paired. At least one pair is required in each event. Finally, events with at least one $b$ jet with $p\_T >20 GeV$ are vetoed.
+Events are required to pass at least one SingleMuon trigger (see Tab.~\ref{tab:puremettriggers}). Each of these trigger applies a cut of at least $100 GeV$ on the missing transverse energy in the trigger. In addition events must have exactly three muons with $|\eta|<2.4$ and with transverse momenta thresholds $40:40:10 ~GeV$. The thresholds have been chosen to reduce the nonprompt contribution. Two muons must have the same charge and one muon have the oppositely charge. Two event categories can thus be identified: $\mu^+\mu^+\mu^-$ and $\mu^+\mu^-\mu^-$. The muons must be prompt i.e. $dxy < 0.01$~cm and $dz < 0.1$~cm and must pass the tight ID and tight PF isolation requirement. These selections significantly reduce decays-in-flight. Two muons with opposite charge and with an invariant mass compatible with the $Z$ mass ($|m_{2mu}-m_Z|<10~ GeV$) are paired. At least one pair is required in each event. Finally events with at least one $b$ jet with $p_T >20 GeV$ are vetoed.
 
 \begin{table}[!]
 \centering
-\caption{MET Triggers used in the Analysis}
+\caption{SingleMu Triggers used in the Analysis}
 \begin{tabular}{|l|}
 \hline
 Trigger Path \\
 \hline
 \hline
-  HLT\_PFHT500\_PFMET100\_PFMHT100\_IDTight \\
-  HLT\_PFHT500\_PFMET110\_PFMHT110\_IDTight \\
-  HLT\_PFHT700\_PFMET85\_PFMHT85\_IDTight \\
-  HLT\_PFHT700\_PFMET95\_PFMHT95\_IDTight \\
-  HLT\_PFHT800\_PFMET75\_PFMHT75\_IDTight \\
-  HLT\_PFHT800\_PFMET85\_PFMHT85\_IDTight \\
-  HLT\_PFMET110\_PFMHT110\_IDTight \\
-  HLT\_PFMET120\_PFMHT120\_IDTight \\
-  HLT\_PFMET130\_PFMHT130\_IDTight \\
-  HLT\_PFMET140\_PFMHT140\_IDTight \\
-  HLT\_PFMET100\_PFMHT100\_IDTight\_CaloBTagDeepCSV\_3p1 \\
-  HLT\_PFMET110\_PFMHT110\_IDTight\_CaloBTagDeepCSV\_3p1 \\
-  HLT\_PFMET120\_PFMHT120\_IDTight\_CaloBTagDeepCSV\_3p1 \\
-  HLT\_PFMET130\_PFMHT130\_IDTight\_CaloBTagDeepCSV\_3p1 \\
-  HLT\_PFMET140\_PFMHT140\_IDTight\_CaloBTagDeepCSV\_3p1 \\
-  HLT\_PFMET120\_PFMHT120\_IDTight\_PFHT60 \\
-  HLT\_PFMETNoMu120\_PFMHTNoMu120\_IDTight\_PFHT60 \\
-  HLT\_PFMETTypeOne120\_PFMHT120\_IDTight\_PFHT60 \\
-  HLT\_PFMETTypeOne110\_PFMHT110\_IDTight \\
-  HLT\_PFMETTypeOne120\_PFMHT120\_IDTight \\
-  HLT\_PFMETTypeOne130\_PFMHT130\_IDTight \\
-  HLT\_PFMETTypeOne140\_PFMHT140\_IDTight \\
-  HLT\_PFMETNoMu110\_PFMHTNoMu110\_IDTight \\
-  HLT\_PFMETNoMu120\_PFMHTNoMu120\_IDTight \\
-  HLT\_PFMETNoMu130\_PFMHTNoMu130\_IDTight \\
-  HLT\_PFMETNoMu140\_PFMHTNoMu140\_IDTight \\
-  HLT\_MonoCentralPFJet80\_PFMETNoMu110\_PFMHTNoMu110\_IDTight \\
-  HLT\_MonoCentralPFJet80\_PFMETNoMu120\_PFMHTNoMu120\_IDTight \\
-  HLT\_MonoCentralPFJet80\_PFMETNoMu130\_PFMHTNoMu130\_IDTight \\
-  HLT\_MonoCentralPFJet80\_PFMETNoMu140\_PFMHTNoMu140\_IDTight \\
-  HLT\_PFMET200\_NotCleaned \\
-  HLT\_PFMET200\_HBHECleaned \\
-  HLT\_PFMET250\_HBHECleaned \\
-  HLT\_PFMET300\_HBHECleaned \\
-  HLT\_PFMET200\_HBHE\_BeamHaloCleaned \\
-  HLT\_PFMETTypeOne200\_HBHE\_BeamHaloCleaned \\
-  HLT\_DiJet110\_35\_Mjj650\_PFMET110 \\
-  HLT\_DiJet110\_35\_Mjj650\_PFMET120 \\
-  HLT\_DiJet110\_35\_Mjj650\_PFMET130 \\
-  HLT\_TripleJet110\_35\_35\_Mjj650\_PFMET110 \\
-  HLT\_TripleJet110\_35\_35\_Mjj650\_PFMET120 \\
-  HLT\_TripleJet110\_35\_35\_Mjj650\_PFMET130 \\
-  HLT\_Ele15\_IsoVVVL\_PFHT450\_PFMET50 \\
-  HLT\_Photon50\_R9Id90\_HE10\_IsoM\_EBOnly\_PFJetsMJJ300DEta3\_PFMET50 \\
-  HLT\_PFMET100\_PFMHT100\_IDTight\_PFHT60 \\
-  HLT\_PFMETNoMu100\_PFMHTNoMu100\_IDTight\_PFHT60 \\
-  HLT\_PFMETTypeOne100\_PFMHT100\_IDTight\_PFHT60 \\
+    HLT\_IsoMu20\_eta2p1\_LooseChargedIsoPFTauHPS27\_eta2p1\_CrossL1 \\
+    HLT\_IsoMu20\_eta2p1\_LooseChargedIsoPFTauHPS27\_eta2p1\_TightID\_CrossL1 \\
+    HLT\_IsoMu20\_eta2p1\_MediumChargedIsoPFTauHPS27\_eta2p1\_CrossL1 \\
+    HLT\_IsoMu20\_eta2p1\_MediumChargedIsoPFTauHPS27\_eta2p1\_TightID\_CrossL1 \\
+    HLT\_IsoMu20\_eta2p1\_TightChargedIsoPFTauHPS27\_eta2p1\_CrossL1 \\
+    HLT\_IsoMu20\_eta2p1\_TightChargedIsoPFTauHPS27\_eta2p1\_TightID\_CrossL1 \\
+    HLT\_IsoMu20 \\
+    HLT\_IsoMu24\_TwoProngs35 \\
+    HLT\_IsoMu24\_eta2p1 \\
+    HLT\_IsoMu24 \\
+    HLT\_IsoMu27 \\
+    HLT\_IsoMu30 \\
+    HLT\_L1SingleMu18 \\
+    HLT\_L1SingleMu25 \\
+    HLT\_L2Mu10 \\
+    HLT\_L2Mu50 \\
+    HLT\_Mu10\_TrkIsoVVL\_DiPFJet40\_DEta3p5\_MJJ750\_HTT350\_PFMETNoMu60 \\
+    HLT\_Mu12 \\
+    HLT\_Mu15\_IsoVVVL\_PFHT450\_CaloBTagDeepCSV\_4p5 \\
+    HLT\_Mu15\_IsoVVVL\_PFHT450\_PFMET50 \\
+    HLT\_Mu15\_IsoVVVL\_PFHT450 \\
+    HLT\_Mu15\_IsoVVVL\_PFHT600 \\
+    HLT\_Mu15 \\
+    HLT\_Mu20 \\
+    HLT\_Mu27 \\
+    HLT\_Mu3\_PFJet40 \\
+    HLT\_Mu3er1p5\_PFJet100er2p5\_PFMET100\_PFMHT100\_IDTight \\
+    HLT\_Mu3er1p5\_PFJet100er2p5\_PFMET70\_PFMHT70\_IDTight \\
+    HLT\_Mu3er1p5\_PFJet100er2p5\_PFMET80\_PFMHT80\_IDTight \\
+    HLT\_Mu3er1p5\_PFJet100er2p5\_PFMET90\_PFMHT90\_IDTight \\
+    HLT\_Mu3er1p5\_PFJet100er2p5\_PFMETNoMu100\_PFMHTNoMu100\_IDTight \\ 
+    HLT\_Mu3er1p5\_PFJet100er2p5\_PFMETNoMu70\_PFMHTNoMu70\_IDTight \\
+    HLT\_Mu3er1p5\_PFJet100er2p5\_PFMETNoMu80\_PFMHTNoMu80\_IDTight \\
+    HLT\_Mu3er1p5\_PFJet100er2p5\_PFMETNoMu90\_PFMHTNoMu90\_IDTight \\
+    HLT\_Mu4\_TrkIsoVVL\_DiPFJet90\_40\_DEta3p5\_MJJ750\_HTT300\_PFMETNoMu60 \\
+    HLT\_Mu50\_IsoVVVL\_PFHT450
+    HLT\_Mu50
+    HLT\_Mu55
+    HLT\_Mu8\_TrkIsoVVL\_DiPFJet40\_DEta3p5\_MJJ750\_HTT300\_PFMETNoMu60
+    HLT\_OldMu100
+    HLT\_TkMu100
   \hline
 \end{tabular}
 \label{tab:puremettriggers}
@@ -204,11 +241,67 @@ No selection & & & & & & \\
 \end{tabular}
 \end{table}
 
-Figures of data vs monte carlo comparisons, efficiencies in data, efficiencies in monte carlo.
+Figures of data vs monte carlo comparisons efficiencies in data efficiencies in monte carlo.
 
 \begin{figure}[htb]
-\includegraphics[width=0.5\textwidth]{figures/Combine_best_OS_dimuon_mass.pdf}
-\includegraphics[width=0.5\textwidth]{figures/Combine_m123.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_mMuMu_OS.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_mMuMu_SS.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_nBJet_20.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_pfMET.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_pfMET_phi.pdf}
+\end{figure}
+
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_pT.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_eta.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_phi.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_charge.pdf}
+\end{figure}
+
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_dxy.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_dz.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_PFIso.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu0_isMedium.pdf}
+\end{figure}
+
+
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_pT.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_eta.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_phi.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_charge.pdf}
+\end{figure}
+
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_dxy.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_dz.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_PFIso.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu1_isMedium.pdf}
+\end{figure}
+
+
+
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_pT.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_eta.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_phi.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_charge.pdf}
+\end{figure}
+
+\begin{figure}[htb]
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_dxy.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_dz.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_PFIso.pdf}
+\includegraphics[width=0.5\textwidth]{figures/Combine_selMu2_isMedium.pdf}
+\end{figure}
+
+
+
+
+
+
+\begin{figure}[htb]
 \includegraphics[width=0.5\textwidth]{figures/Combine_nBJet_20.pdf}
 \end{figure}
 
@@ -242,11 +335,5 @@ Figures of data vs monte carlo comparisons, efficiencies in data, efficiencies i
 
 \section{Summary}
 The overall trigger scale factor is estimated to be XX\% +/- XX\%(stat.).
-
-
-
-
-
-
 
 \end{document}
