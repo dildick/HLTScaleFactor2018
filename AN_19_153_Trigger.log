@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 DEC 2020 02:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 DEC 2020 02:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -302,270 +302,271 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--113
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `!tbp') on input line 114.
 
-<figures/Combine_selMu0_pT.pdf, id=134, 569.12625pt x 408.52625pt>
+[3] [4]
+<figures/Combine_selMu0_pT.pdf, id=141, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu0_pT.pdf Graphic file (type pdf)
 <use figures/Combine_selMu0_pT.pdf>
-Package pdftex.def Info: figures/Combine_selMu0_pT.pdf  used on input line 206.
+Package pdftex.def Info: figures/Combine_selMu0_pT.pdf  used on input line 219.
 
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu0_eta.pdf, id=135, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu0_eta.pdf, id=142, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu0_eta.pdf Graphic file (type pdf)
 <use figures/Combine_selMu0_eta.pdf>
-Package pdftex.def Info: figures/Combine_selMu0_eta.pdf  used on input line 207
+Package pdftex.def Info: figures/Combine_selMu0_eta.pdf  used on input line 220
 .
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu0_phi.pdf, id=136, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu0_phi.pdf, id=143, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu0_phi.pdf Graphic file (type pdf)
 <use figures/Combine_selMu0_phi.pdf>
-Package pdftex.def Info: figures/Combine_selMu0_phi.pdf  used on input line 209
+Package pdftex.def Info: figures/Combine_selMu0_phi.pdf  used on input line 222
 .
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu0_charge.pdf, id=137, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu0_charge.pdf, id=144, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu0_charge.pdf Graphic file (type pdf)
 <use figures/Combine_selMu0_charge.pdf>
 Package pdftex.def Info: figures/Combine_selMu0_charge.pdf  used on input line 
-210.
+223.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 206--212
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 219--225
 [][] [] 
  []
 
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 206--212
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 219--225
 [] []
  []
 
-<figures/Combine_selMu0_dxy.pdf, id=138, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu0_dxy.pdf, id=145, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu0_dxy.pdf Graphic file (type pdf)
 <use figures/Combine_selMu0_dxy.pdf>
-Package pdftex.def Info: figures/Combine_selMu0_dxy.pdf  used on input line 215
+Package pdftex.def Info: figures/Combine_selMu0_dxy.pdf  used on input line 229
 .
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu0_dz.pdf, id=139, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu0_dz.pdf, id=146, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu0_dz.pdf Graphic file (type pdf)
 <use figures/Combine_selMu0_dz.pdf>
-Package pdftex.def Info: figures/Combine_selMu0_dz.pdf  used on input line 216.
+Package pdftex.def Info: figures/Combine_selMu0_dz.pdf  used on input line 230.
 
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu0_PFIso.pdf, id=140, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu0_PFIso.pdf, id=147, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu0_PFIso.pdf Graphic file (type pdf)
 <use figures/Combine_selMu0_PFIso.pdf>
 Package pdftex.def Info: figures/Combine_selMu0_PFIso.pdf  used on input line 2
-18.
+32.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu0_isMedium.pdf, id=141, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu0_isMedium.pdf, id=148, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu0_isMedium.pdf Graphic file (type pdf)
 <use figures/Combine_selMu0_isMedium.pdf>
 Package pdftex.def Info: figures/Combine_selMu0_isMedium.pdf  used on input lin
-e 219.
+e 233.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 215--221
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 229--235
 [][] [] 
  []
 
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 215--221
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 229--235
 [] []
  []
 
-<figures/Combine_selMu1_pT.pdf, id=142, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu1_pT.pdf, id=149, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu1_pT.pdf Graphic file (type pdf)
 <use figures/Combine_selMu1_pT.pdf>
-Package pdftex.def Info: figures/Combine_selMu1_pT.pdf  used on input line 226.
+Package pdftex.def Info: figures/Combine_selMu1_pT.pdf  used on input line 241.
 
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu1_eta.pdf, id=143, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu1_eta.pdf, id=150, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu1_eta.pdf Graphic file (type pdf)
 <use figures/Combine_selMu1_eta.pdf>
-Package pdftex.def Info: figures/Combine_selMu1_eta.pdf  used on input line 227
+Package pdftex.def Info: figures/Combine_selMu1_eta.pdf  used on input line 242
 .
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu1_phi.pdf, id=144, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu1_phi.pdf, id=151, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu1_phi.pdf Graphic file (type pdf)
 <use figures/Combine_selMu1_phi.pdf>
-Package pdftex.def Info: figures/Combine_selMu1_phi.pdf  used on input line 229
+Package pdftex.def Info: figures/Combine_selMu1_phi.pdf  used on input line 244
 .
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu1_charge.pdf, id=145, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu1_charge.pdf, id=152, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu1_charge.pdf Graphic file (type pdf)
 <use figures/Combine_selMu1_charge.pdf>
 Package pdftex.def Info: figures/Combine_selMu1_charge.pdf  used on input line 
-230.
+245.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 226--232
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 241--247
 [][] [] 
  []
 
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 226--232
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 241--247
 [] []
  []
 
-<figures/Combine_selMu1_dxy.pdf, id=146, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu1_dxy.pdf, id=153, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu1_dxy.pdf Graphic file (type pdf)
 <use figures/Combine_selMu1_dxy.pdf>
-Package pdftex.def Info: figures/Combine_selMu1_dxy.pdf  used on input line 236
+Package pdftex.def Info: figures/Combine_selMu1_dxy.pdf  used on input line 252
 .
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu1_dz.pdf, id=147, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu1_dz.pdf, id=154, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu1_dz.pdf Graphic file (type pdf)
 <use figures/Combine_selMu1_dz.pdf>
-Package pdftex.def Info: figures/Combine_selMu1_dz.pdf  used on input line 237.
+Package pdftex.def Info: figures/Combine_selMu1_dz.pdf  used on input line 253.
 
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu1_PFIso.pdf, id=148, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu1_PFIso.pdf, id=155, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu1_PFIso.pdf Graphic file (type pdf)
 <use figures/Combine_selMu1_PFIso.pdf>
 Package pdftex.def Info: figures/Combine_selMu1_PFIso.pdf  used on input line 2
-39.
+55.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu1_isMedium.pdf, id=149, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu1_isMedium.pdf, id=156, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu1_isMedium.pdf Graphic file (type pdf)
 <use figures/Combine_selMu1_isMedium.pdf>
 Package pdftex.def Info: figures/Combine_selMu1_isMedium.pdf  used on input lin
-e 240.
+e 256.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 236--242
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 252--258
 [][] [] 
  []
 
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 236--242
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 252--258
 [] []
  []
 
-<figures/Combine_selMu2_pT.pdf, id=150, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu2_pT.pdf, id=157, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu2_pT.pdf Graphic file (type pdf)
 <use figures/Combine_selMu2_pT.pdf>
-Package pdftex.def Info: figures/Combine_selMu2_pT.pdf  used on input line 248.
+Package pdftex.def Info: figures/Combine_selMu2_pT.pdf  used on input line 265.
 
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu2_eta.pdf, id=151, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu2_eta.pdf, id=158, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu2_eta.pdf Graphic file (type pdf)
 <use figures/Combine_selMu2_eta.pdf>
-Package pdftex.def Info: figures/Combine_selMu2_eta.pdf  used on input line 249
+Package pdftex.def Info: figures/Combine_selMu2_eta.pdf  used on input line 266
 .
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu2_phi.pdf, id=152, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu2_phi.pdf, id=159, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu2_phi.pdf Graphic file (type pdf)
 <use figures/Combine_selMu2_phi.pdf>
-Package pdftex.def Info: figures/Combine_selMu2_phi.pdf  used on input line 251
+Package pdftex.def Info: figures/Combine_selMu2_phi.pdf  used on input line 268
 .
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu2_charge.pdf, id=153, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu2_charge.pdf, id=160, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu2_charge.pdf Graphic file (type pdf)
 <use figures/Combine_selMu2_charge.pdf>
 Package pdftex.def Info: figures/Combine_selMu2_charge.pdf  used on input line 
-252.
+269.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 248--254
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 265--271
 [][] [] 
  []
 
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 248--254
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 265--271
 [] []
  []
 
-<figures/Combine_selMu2_dxy.pdf, id=154, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu2_dxy.pdf, id=161, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu2_dxy.pdf Graphic file (type pdf)
 <use figures/Combine_selMu2_dxy.pdf>
-Package pdftex.def Info: figures/Combine_selMu2_dxy.pdf  used on input line 258
+Package pdftex.def Info: figures/Combine_selMu2_dxy.pdf  used on input line 276
 .
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu2_dz.pdf, id=155, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu2_dz.pdf, id=162, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu2_dz.pdf Graphic file (type pdf)
 <use figures/Combine_selMu2_dz.pdf>
-Package pdftex.def Info: figures/Combine_selMu2_dz.pdf  used on input line 259.
+Package pdftex.def Info: figures/Combine_selMu2_dz.pdf  used on input line 277.
 
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu2_PFIso.pdf, id=156, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu2_PFIso.pdf, id=163, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu2_PFIso.pdf Graphic file (type pdf)
 <use figures/Combine_selMu2_PFIso.pdf>
 Package pdftex.def Info: figures/Combine_selMu2_PFIso.pdf  used on input line 2
-61.
+79.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_selMu2_isMedium.pdf, id=157, 569.12625pt x 408.52625pt>
+<figures/Combine_selMu2_isMedium.pdf, id=164, 569.12625pt x 408.52625pt>
 File: figures/Combine_selMu2_isMedium.pdf Graphic file (type pdf)
 <use figures/Combine_selMu2_isMedium.pdf>
 Package pdftex.def Info: figures/Combine_selMu2_isMedium.pdf  used on input lin
-e 262.
+e 280.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 258--264
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 276--282
 [][] [] 
  []
 
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 258--264
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 276--282
 [] []
  []
 
-<figures/Combine_mMuMu_OS.pdf, id=158, 569.12625pt x 408.52625pt>
+<figures/Combine_mMuMu_OS.pdf, id=165, 569.12625pt x 408.52625pt>
 File: figures/Combine_mMuMu_OS.pdf Graphic file (type pdf)
 <use figures/Combine_mMuMu_OS.pdf>
-Package pdftex.def Info: figures/Combine_mMuMu_OS.pdf  used on input line 269.
+Package pdftex.def Info: figures/Combine_mMuMu_OS.pdf  used on input line 288.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_mMuMu_SS.pdf, id=159, 569.12625pt x 408.52625pt>
+<figures/Combine_mMuMu_SS.pdf, id=166, 569.12625pt x 408.52625pt>
 File: figures/Combine_mMuMu_SS.pdf Graphic file (type pdf)
 <use figures/Combine_mMuMu_SS.pdf>
-Package pdftex.def Info: figures/Combine_mMuMu_SS.pdf  used on input line 270.
+Package pdftex.def Info: figures/Combine_mMuMu_SS.pdf  used on input line 289.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_nBJet_20.pdf, id=160, 569.12625pt x 408.52625pt>
+<figures/Combine_nBJet_20.pdf, id=167, 569.12625pt x 408.52625pt>
 File: figures/Combine_nBJet_20.pdf Graphic file (type pdf)
 <use figures/Combine_nBJet_20.pdf>
-Package pdftex.def Info: figures/Combine_nBJet_20.pdf  used on input line 272.
+Package pdftex.def Info: figures/Combine_nBJet_20.pdf  used on input line 291.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_pfMET.pdf, id=161, 569.12625pt x 408.52625pt>
+<figures/Combine_pfMET.pdf, id=168, 569.12625pt x 408.52625pt>
 File: figures/Combine_pfMET.pdf Graphic file (type pdf)
 <use figures/Combine_pfMET.pdf>
-Package pdftex.def Info: figures/Combine_pfMET.pdf  used on input line 273.
+Package pdftex.def Info: figures/Combine_pfMET.pdf  used on input line 292.
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
-<figures/Combine_pfMET_phi.pdf, id=162, 569.12625pt x 408.52625pt>
+<figures/Combine_pfMET_phi.pdf, id=169, 569.12625pt x 408.52625pt>
 File: figures/Combine_pfMET_phi.pdf Graphic file (type pdf)
 <use figures/Combine_pfMET_phi.pdf>
-Package pdftex.def Info: figures/Combine_pfMET_phi.pdf  used on input line 275.
+Package pdftex.def Info: figures/Combine_pfMET_phi.pdf  used on input line 294.
 
 (pdftex.def)             Requested size: 241.84843pt x 173.60577pt.
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 269--277
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 288--296
 [][] [] 
  []
 
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 269--277
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 288--296
 [] [] 
  []
 
-[3 <./figures/Combine_selMu0_pT.pdf, page is rotated 90 degrees> <./figures/Com
-bine_selMu0_eta.pdf, page is rotated 90 degrees> <./figures/Combine_selMu0_phi.
-pdf, page is rotated 90 degrees> <./figures/Combine_selMu0_charge.pdf, page is 
-rotated 90 degrees>] [4] [5] [6 <./figures/Combine_selMu0_dxy.pdf, page is rota
-ted 90 degrees> <./figures/Combine_selMu0_dz.pdf, page is rotated 90 degrees> <
-./figures/Combine_selMu0_PFIso.pdf, page is rotated 90 degrees> <./figures/Comb
-ine_selMu0_isMedium.pdf, page is rotated 90 degrees>] [7 <./figures/Combine_sel
-Mu1_pT.pdf, page is rotated 90 degrees> <./figures/Combine_selMu1_eta.pdf, page
- is rotated 90 degrees> <./figures/Combine_selMu1_phi.pdf, page is rotated 90 d
-egrees> <./figures/Combine_selMu1_charge.pdf, page is rotated 90 degrees>]
-[8 <./figures/Combine_selMu1_dxy.pdf, page is rotated 90 degrees> <./figures/Co
-mbine_selMu1_dz.pdf, page is rotated 90 degrees> <./figures/Combine_selMu1_PFIs
-o.pdf, page is rotated 90 degrees> <./figures/Combine_selMu1_isMedium.pdf, page
- is rotated 90 degrees>] [9 <./figures/Combine_selMu2_pT.pdf, page is rotated 9
-0 degrees> <./figures/Combine_selMu2_eta.pdf, page is rotated 90 degrees> <./fi
-gures/Combine_selMu2_phi.pdf, page is rotated 90 degrees> <./figures/Combine_se
-lMu2_charge.pdf, page is rotated 90 degrees>] [10 <./figures/Combine_selMu2_dxy
-.pdf, page is rotated 90 degrees> <./figures/Combine_selMu2_dz.pdf, page is rot
-ated 90 degrees> <./figures/Combine_selMu2_PFIso.pdf, page is rotated 90 degree
-s> <./figures/Combine_selMu2_isMedium.pdf, page is rotated 90 degrees>]
-[11 <./figures/Combine_mMuMu_OS.pdf, page is rotated 90 degrees> <./figures/Com
-bine_mMuMu_SS.pdf, page is rotated 90 degrees> <./figures/Combine_nBJet_20.pdf,
- page is rotated 90 degrees> <./figures/Combine_pfMET.pdf, page is rotated 90 d
-egrees> <./figures/Combine_pfMET_phi.pdf, page is rotated 90 degrees>]
+[5] [6 <./figures/Combine_selMu0_pT.pdf, page is rotated 90 degrees> <./figures
+/Combine_selMu0_eta.pdf, page is rotated 90 degrees> <./figures/Combine_selMu0_
+phi.pdf, page is rotated 90 degrees> <./figures/Combine_selMu0_charge.pdf, page
+ is rotated 90 degrees>] [7 <./figures/Combine_selMu0_dxy.pdf, page is rotated 
+90 degrees> <./figures/Combine_selMu0_dz.pdf, page is rotated 90 degrees> <./fi
+gures/Combine_selMu0_PFIso.pdf, page is rotated 90 degrees> <./figures/Combine_
+selMu0_isMedium.pdf, page is rotated 90 degrees>] [8 <./figures/Combine_selMu1_
+pT.pdf, page is rotated 90 degrees> <./figures/Combine_selMu1_eta.pdf, page is 
+rotated 90 degrees> <./figures/Combine_selMu1_phi.pdf, page is rotated 90 degre
+es> <./figures/Combine_selMu1_charge.pdf, page is rotated 90 degrees>] [9 <./fi
+gures/Combine_selMu1_dxy.pdf, page is rotated 90 degrees> <./figures/Combine_se
+lMu1_dz.pdf, page is rotated 90 degrees> <./figures/Combine_selMu1_PFIso.pdf, p
+age is rotated 90 degrees> <./figures/Combine_selMu1_isMedium.pdf, page is rota
+ted 90 degrees>] [10 <./figures/Combine_selMu2_pT.pdf, page is rotated 90 degre
+es> <./figures/Combine_selMu2_eta.pdf, page is rotated 90 degrees> <./figures/C
+ombine_selMu2_phi.pdf, page is rotated 90 degrees> <./figures/Combine_selMu2_ch
+arge.pdf, page is rotated 90 degrees>] [11 <./figures/Combine_selMu2_dxy.pdf, p
+age is rotated 90 degrees> <./figures/Combine_selMu2_dz.pdf, page is rotated 90
+ degrees> <./figures/Combine_selMu2_PFIso.pdf, page is rotated 90 degrees> <./f
+igures/Combine_selMu2_isMedium.pdf, page is rotated 90 degrees>] [12 <./figures
+/Combine_mMuMu_OS.pdf, page is rotated 90 degrees> <./figures/Combine_mMuMu_SS.
+pdf, page is rotated 90 degrees> <./figures/Combine_nBJet_20.pdf, page is rotat
+ed 90 degrees> <./figures/Combine_pfMET.pdf, page is rotated 90 degrees> <./fig
+ures/Combine_pfMET_phi.pdf, page is rotated 90 degrees>]
 (./AN_19_153_Trigger.aux)
 
 LaTeX Warning: There were undefined references.
@@ -574,7 +575,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  3019 strings out of 492616
  44867 string characters out of 6129482
- 123855 words of memory out of 5000000
+ 120856 words of memory out of 5000000
  6866 multiletter control sequences out of 15000+600000
  12910 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -591,10 +592,10 @@ texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on AN_19_153_Trigger.pdf (11 pages, 1022631 bytes).
+Output written on AN_19_153_Trigger.pdf (12 pages, 1032600 bytes).
 PDF statistics:
- 1484 PDF objects out of 1728 (max. 8388607)
- 648 compressed objects within 7 object streams
+ 1487 PDF objects out of 1728 (max. 8388607)
+ 650 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
  156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
